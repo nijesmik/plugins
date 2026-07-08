@@ -10,7 +10,8 @@
         "source": "git-subdir",
         "url": "nijesmik/openwiki",
         "path": "plugin"
-      }
+      },
+      "description": "Generate and maintain OpenWiki documentation for a codebase. Claude Code plugin packaging of langchain-ai/openwiki with the original prompts preserved verbatim."
     },
     {
       "name": "deepwiki",
@@ -18,7 +19,8 @@
         "source": "git-subdir",
         "url": "nijesmik/deepwiki-open",
         "path": "plugin"
-      }
+      },
+      "description": "DeepWiki as a Claude Code plugin: wiki generation, repository Q&A, and deep research using the original DeepWiki prompts with agentic codebase exploration instead of RAG."
     }
   ]
 }
