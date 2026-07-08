@@ -1,0 +1,24 @@
+{
+  "name": "nijesmik",
+  "owner": {
+    "name": "nijesmik"
+  },
+  "plugins": [
+    {
+      "name": "openwiki",
+      "source": {
+        "source": "git-subdir",
+        "url": "nijesmik/openwiki",
+        "path": "plugin"
+      }
+    },
+    {
+      "name": "deepwiki",
+      "source": {
+        "source": "git-subdir",
+        "url": "nijesmik/deepwiki-open",
+        "path": "plugin"
+      }
+    }
+  ]
+}
