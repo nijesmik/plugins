@@ -1,0 +1,47 @@
+{
+  "name": "nijesmik",
+  "interface": {
+    "displayName": "nijesmik"
+  },
+  "plugins": [
+    {
+      "name": "deepwiki",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/nijesmik/deepwiki-open.git",
+        "path": "./plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools",
+      "description": "DeepWiki as a plugin: wiki generation, repository Q&A, and deep research using the original DeepWiki prompts with agentic codebase exploration instead of RAG.",
+      "interface": {
+        "displayName": "DeepWiki",
+        "shortDescription": "Wiki generation, repo Q&A, and deep research",
+        "developerName": "nijesmik",
+        "websiteURL": "https://github.com/nijesmik/deepwiki-open"
+      }
+    },
+    {
+      "name": "brag-doc",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/nijesmik/brag-doc.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools",
+      "description": "Cluster your git/PR contributions in any repo into analysis docs: a theme overview plus per-topic deep dives from PR diffs.",
+      "interface": {
+        "displayName": "brag-doc",
+        "shortDescription": "Turn your git/PR history into contribution analysis docs",
+        "developerName": "nijesmik",
+        "websiteURL": "https://github.com/nijesmik/brag-doc"
+      }
+    }
+  ]
+}
